@@ -22,18 +22,18 @@ This information can easily be gleaned from the images provided above.
 In terms of the code performance one can see that all the stock information for both analyses was under 0.15 seconds.
 This information can be seen in the images above.
 The original code would perform the analyses in approximately 0.7 seconds.
-This represents a speedup in the performance of aronud a factor of 5, a rather significant improvement.
+This represents a speedup in the performance of around a factor of 5, a rather significant improvement.
 
 ## Summary
 
 1. What are the advantages or disadvantages of refactoring code?
    - Advantages
-     - The code can run more efficiently by using either less memory, or less time.
+ - The code can run more efficiently by using either less memory, or less time.
        The program does not need to necessarily improve in either of these regards either.
        The code could simply be easier to understand which would make it easier to maintain.
 
-   - Disadvantages
-     - There is a cost in time to refactor existing code which may not be necessary or worthwhile in the grand scheme of the project.
+ - Disadvantages
+ - There is a cost in time to refactor existing code which may not be necessary or worthwhile in the grand scheme of the project.
      - Sometimes finding an extremely efficient algorithm for doing some task may ultimately make the code incredibly difficult to understand which reduces the maintainability which may not be desireable if utmost performance is not a requirement. 
 
 2. How do these pros and cons apply to refactoring the original VBA script?
